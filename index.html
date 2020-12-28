@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel_button carousel_button--left is-hidden">
+            <img src="images/left.svg" alt="">
+        </button>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide current-slide">
+                    <img class="carousel_image" src="images/cropped.jpg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="images/cropped (1).jpg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="images/cropped (2).jpg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="images/cropped (3).jpg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img class="carousel_image" src="images/cropped (4).jpg" alt="">
+                </li>
+            </ul> 
+        </div>
+        <button class="carousel_button carousel_button--right">
+            <img src="images/right.svg" alt="">
+        </button>
+
+        <div class="carousel_nav">
+            <button class="carousel_indicator current-slide"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+        </div>
+    </div> 
+</body>
+</html>
